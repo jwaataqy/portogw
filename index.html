@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Roboto+Mono:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    </style>
+</head>
+
+<body class="font-Roboto Mono overflow-x-hidden">
+    <header id="header" class="fixed top-0 rounded-xl font-Roboto Mono ">
+        <div class="w-screen px-10 md:px-32 ">
+            <div class="h-20 w-full flex justify-between items-center ">
+                <img src="/img/jua.jpeg" alt="" class="w-[50px] rounded-full">
+                <nav>
+                    <div class="block md:hidden" onclick="showHideMenu()">
+                        <i class="fas fa-bars text-xl"></i>
+                    </div>
+                    <ul class="hidden md:flex gap-8">
+                        <li><a href="#" class="text-lg font-medium">Home</a></li>
+                        <li><a href="#" class="text-lg font-medium">Articles</a></li>
+                        <li><a href="#" class="text-lg font-medium">Project</a></li>
+                        <li><a href="#" class="text-lg font-medium">About</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="hidden flex-col gap-4 bg-white-200 md:hidden px-3 py-3 rounded-sm" id="daftarMenu">
+                <a href="#" class="text-xl font-semibold border-b-2 border-gray-400">Home</a>
+                <a href="#" class="text-xl font-semibold border-b-2 border-gray-400">About</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="slider">
+            <div
+                class="w-full h-[400px]  px-10 mt-32 md:px-32  flex justify-between gap-2 flex-col md:flex-row  ">
+                <div class=" w-full md:w-3/5 h-[600px] order-2 md:order-1  ">
+                    <h2 class="text-2xl md:text-3xl font-semibold mt-[8px] md:mt-[5rem] text-center font-quicksand">
+                        Hello i'm jwaataqy <br><br><a href="#" class="text-lg font-light"> Student Madinatul quran
+                            Vocational high school </a></h2>
+                </div>
+                <div class=" w-full md:w-2/5 h-[600px] order-1  ">
+                    <img class="rounded-full mt-[1rem] md:mt-[1rem]" src="/img/1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skill">
+            <div class=" h-[830px] rounded-lg md:h-[400px] mt-[5rem]">
+                <div class="pt-[3rem] text-black">
+                    <div class="md:text-center text-center ">
+                        <h3 class="text-2xl font-normal">My skill</h3>
+                    </div>
+
+
+
+                    <div class=" pt-[3rem] flex items-center flex-col  md:flex-row justify-around">
+                        <div class=" w-[200px]  flex flex-col">
+                            <img class="rounded-xl" src="/img/html log.jpeg" alt="">
+                            <p class="text-center mt-[1rem]">HTML</p>
+                        </div>
+
+                        <div class=" w-[200px] flex flex-col">
+                            <img class="rounded-xl" src="/img/th.jpeg" alt="">
+                            <p class="text-center mt-[1rem]">CSS</p>
+                        </div>
+
+                        <div class="  w-[200px] flex flex-col">
+                            <img class="rounded-xl" src="/img/download.jpeg" alt="">
+                            <P class="text-center mt-[1rem]">JAVASCRIPT</P>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="w-full h-[500px]  mt-32">
+                <h4 class="mt-[3rem] text-center text-2xl">My Project</h4>
+                <div class="w-[400px] rounded-xl ml-[35%] mt-[5rem] shadow-xl">
+                    <img src="/img/desain 1.png " alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="bg-slate-500 rounded-xl">
+
+            <div class="w-full md:h-[500px] h-[600px]   mt-32 md:px-32 md:flex md:flex-col ">
+                <h4 class="text-center text-2xl">My Blog</h4>
+
+                <div class=" mt-20 md:ml-[25%] md:h-[250px] md:w-[500px]  rounded-lg flex justify-around flex-col">
+                    <div class=" md:ml-[37%] ml-[26%]">
+                        <img class="h-[150px] rounded-full " src="/img/jua.jpeg" alt="">
+                        <h4 class="md:mt-[50px] mt-[10px] ml-[24px]">@fucek.mqn</h4>
+                        <p>You can contact me at</p>
+                    </div>
+
+                    <div class="mt-[2rem] md:mt-[2rem] ">
+                        <ul class="md:flex md:justify-between flex flex-col md:flex-row items-center">
+
+
+                            <li class="w-[150px] py-3 px-[3.8rem] bg-black text-white rounded-lg hover:bg-white hover:text-black hover:ring
+                            hover:ring-black transition duration-300 mt-[19px] "><a
+                                    href="https://www.instagram.com/fucek.mqn/"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg></a></li>
+
+
+                            <li class="w-[150px] py-3 px-[3.8rem] bg-black text-white rounded-lg hover:bg-white hover:text-black hover:ring
+                            hover:ring-black transition duration-300 mt-[19px]"><a href=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-linkedin">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg></a></li>
+
+
+                            <li class="w-[150px] py-3 px-[3.8rem] bg-black text-white rounded-lg hover:bg-white hover:text-black hover:ring
+                            hover:ring-black transition duration-300 mt-[19px] "><a href="https://mail.google.com/" title="Gmail.com"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-mail">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg></a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+    <script>
+        var xstatus = false;
+
+        function showHideMenu() {
+            var menu = document.getElementById("daftarMenu");
+            if (xstatus) {
+                menu.classList.add("hidden");
+                menu.classList.remove("flex");
+                xstatus = false;
+            } else {
+                menu.classList.remove("hidden");
+                menu.classList.add("flex");
+                xstatus = true;
+            }
+            console.log(xstatus);
+        }
+
+        window.onscroll = function () { menu() };
+        var xstatus = false;
+
+        function menu() {
+            if (document.documentElement.scrollTop > 20) {
+                document.getElementById('header').classList.add
+                    ('bg-white');
+                document.getElementById('header').classList.add
+                    ('shadow-lg');
+            } else {
+                document.getElementById('header').classList.remove('bg-white');
+                document.getElementById('header').classList.remove('shadow-lg')
+            }
+        }
+    </script>
+</body>
+
+</html>
